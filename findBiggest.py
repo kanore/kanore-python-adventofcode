@@ -1,5 +1,4 @@
-import math
-from numpy import array, split
+from numpy import array
 
 def findBiggest(arr: array):
     value = 0

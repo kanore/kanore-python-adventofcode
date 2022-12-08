@@ -1,5 +1,3 @@
-import math
-from numpy import array, split
 
 def groupByElves(entry):
     elvesFood = entry.rsplit("""
