@@ -11,7 +11,7 @@ import calculatePriority as cp
 rucksack = sr.splitRucksack(e.entry)
 allLetters = fel.findExtra(rucksack)
 result1 = cp.calcPrior(allLetters)
-print(result1)
+print("Day 03 part 1 result: ", result1)
 
 import commonItems as ci
 
@@ -21,4 +21,4 @@ items = ci.commonItems(rucksack)
 
 #calculate prior
 result2 = cp.calcPrior(items)
-print(result2)
+print("Day 03 part 2 result: ", result2)

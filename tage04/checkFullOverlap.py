@@ -1,4 +1,4 @@
-def checkRanges(entry):
+def checkFullOverlap(entry):
     contains = 0
 
     for pairs in entry:
