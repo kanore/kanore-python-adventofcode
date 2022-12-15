@@ -1,3 +1,3 @@
-def splitRucksack(entry):
+def splitPairs(entry):
     return entry.rsplit("""
 """)
