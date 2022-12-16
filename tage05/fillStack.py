@@ -7,7 +7,8 @@ def fillStack(entry):
     # setting the stack at his empty state
     stacks = []
     for x in range(9):
-        stacks.append(queue.LifoQueue(maxsize=10))
+        # initializing the stack with the max value would ever have
+        stacks.append(queue.LifoQueue(maxsize=56))
 
     # filling up the stacks
     for row in entry:

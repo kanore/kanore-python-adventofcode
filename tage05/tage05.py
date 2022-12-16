@@ -6,6 +6,8 @@ import fillStack as fs
 
 import movingStackBoxes as msb
 
+import gettingFinalsLetters as gfl
+
 # split the two parts of the input
 chart, moves = s.intoTwoParts(e.entry)
 
@@ -18,7 +20,10 @@ stacks = fs.fillStack(chartLines)
 # separate lines of moves
 movesLines = s.byLines(moves)
 
-result1 = msb.movingStackBoxes(movesLines, stacks)
+# moving boxes
+resultOfMoving = msb.movingStackBoxes(movesLines, stacks)
+
+result1 = gfl.gettingFinalsLetters(resultOfMoving)
 print("Day 05 part 1 result: ", result1)
 
 
