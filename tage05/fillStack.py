@@ -1,9 +1,6 @@
 import queue
 
 def fillStack(entry):
-    # reverse order to fill the stack later
-    entry.reverse()
-
     # setting the stack at his empty state
     stacks = []
     for x in range(9):
