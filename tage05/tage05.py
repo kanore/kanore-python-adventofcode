@@ -12,11 +12,10 @@ import gettingFinalsLetters as gfl
 chart, moves = s.intoTwoParts(e.entry)
 # split the chart by lines
 chartLines = s.byLines(chart)
-# fill stacks of letters for part 1
-stacks1 = fs.fillStack(chartLines)
 # reverse order to fill the stack later
 chartLines.reverse()
-# fill stacks of letters for part 2
+# fill stacks of letters for part 1 and part 2
+stacks1 = fs.fillStack(chartLines)
 stacks2 = fs.fillStack(chartLines)
 # separate lines of moves
 movesLines = s.byLines(moves)
